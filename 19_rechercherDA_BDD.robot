@@ -4,6 +4,8 @@
 Resource	squash_resources.resource
 Library		squash_tf.TFParamService
 
+Test Setup    Open Browser    browser=ff
+
 *** Test Cases ***
 rechercherDA_BDD
 	${mdp} =	Get Test Param	DS_mdp
