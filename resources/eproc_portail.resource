@@ -11,6 +11,7 @@ Aller sur la page d'accès fournisseurs
     ...                Url en sortie: https://env03.ivalua.com/buyer/groupelaposte/rctmaint3/fwdm7/page.aspx/fr/usr/login
     [Arguments]    ${eprocUrl}=https://env03.ivalua.com/buyer/groupelaposte/rctmaint3/fwdm7/page.aspx/fr/usr/login
     ...            ${timeout}=15
+    Open Browser    ${eprocUrl}    browser=ff
     Maximize Browser Window
     Go to    ${eprocUrl}    
     Wait Until Element Is Visible    //div[text()='ACCES FOURNISSEURS']    timeout=${timeout}
