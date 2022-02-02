@@ -14,7 +14,6 @@ And Je consulte la liste des commandes
     Aller à la page des listes des commandes
 
 When Je recherche un ${numCommande}
-    Saisir le numéro de commande    ${numCommande}
     Rechercher la commande par son numero    ${numCommande}
 Then La commande ${numCommande} est listée et je peux la consulter
     Ouvrir la commande    ${numCommande}
