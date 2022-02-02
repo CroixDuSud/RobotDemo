@@ -5,7 +5,7 @@ Resource	squash_resources.resource
 Library		squash_tf.TFParamService
 
 Test Setup    Open Browser    browser=ff
-Test Teardown    Close All Browsers
+Test Teardown    Close Browser
 
 *** Test Cases ***
 rechercherDA_BDD
